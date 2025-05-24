@@ -9,6 +9,26 @@ requirements = []
 path = 'contracts/asset-registry.clar'
 clarity_version = 2
 epoch = 2.5
+
+[contracts.condition-assessment]
+path = 'contracts/condition-assessment.clar'
+clarity_version = 2
+epoch = 2.5
+
+[contracts.investment-prioritization]
+path = 'contracts/investment-prioritization.clar'
+clarity_version = 2
+epoch = 2.5
+
+[contracts.maintenance-planning]
+path = 'contracts/maintenance-planning.clar'
+clarity_version = 2
+epoch = 2.5
+
+[contracts.performance-monitoring]
+path = 'contracts/performance-monitoring.clar'
+clarity_version = 2
+epoch = 2.5
 [repl.analysis]
 passes = ['check_checker']
 
